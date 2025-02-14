@@ -23,7 +23,7 @@ The repository is divided into **three structured sections (S1, S2, S3)** to mak
 ```
 📂 Python Programming A-Z
 │── 🏗 S1 - Python Basics (Core Fundamentals)
-│   ├── 1️⃣ Variables & Math Operations.ipynb
+│   ├── 1️⃣ Variables, Assignments & Math Operations.ipynb
 │   ├── 2️⃣ Print & User Input.ipynb
 │   ├── 3️⃣ Strings & String Methods.ipynb
 │   ├── 4️⃣ Lists, Tuples & Sets.ipynb
@@ -41,8 +41,8 @@ The repository is divided into **three structured sections (S1, S2, S3)** to mak
 │   ├── 1️⃣ NumPy Basics & Arrays.ipynb
 │   ├── 2️⃣ Pandas DataFrames & Data Manipulation.ipynb
 │   ├── 3️⃣ Matplotlib & Seaborn Visualizations.ipynb
-│   ├── 4️⃣ Data Exploration & Cleaning.ipynb
-│   ├── 5️⃣ Real-World Python Projects.ipynb
+│  
+│  
 ```
 
 ---
@@ -107,4 +107,4 @@ Have questions, ideas, or just want to chat?
 📍 Data Enthusiast | Python Programmer | Open Source Contributor  
 🔗 **GitHub:** [evgeniimatveev](https://github.com/evgeniimatveev)  
 
-🌟 **Like this repo? Give it a star!** ⭐
+🌟 **Like this repo? Give it a star!** ⭐  
