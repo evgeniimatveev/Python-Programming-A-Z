@@ -1,3 +1,24 @@
+<p align="center">
+
+  <!-- Python & Tools -->
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter" />
+  <img src="https://img.shields.io/badge/NumPy-Data%20Arrays-blueviolet?logo=numpy" />
+  <img src="https://img.shields.io/badge/Pandas-Data%20Frames-yellow?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-Visualization-red" />
+  <img src="https://img.shields.io/badge/Seaborn-Statistical%20Plots-teal" />
+
+  <!-- Level & Status -->
+  <img src="https://img.shields.io/badge/Level-Beginner%20to%20Advanced-brightgreen" />
+  <img src="https://img.shields.io/badge/Learning_Path-Structured-blue" />
+  <img src="https://img.shields.io/badge/Status-Active-success" />
+
+  <!-- License -->
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey" />
+
+</p>
+
+
 # 🚀 Python Programming A-Z: Master the Fundamentals 🐍
 
 🎉 **Welcome to Python Programming A-Z!**  
