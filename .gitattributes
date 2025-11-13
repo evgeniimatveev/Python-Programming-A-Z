@@ -1,9 +1,6 @@
 # --- GitHub Linguist: treat this repo as Python course ---
 
-# Python scripts
-*.py linguist-detectable=true linguist-language=Python
-
-# Jupyter notebooks
+*.py    linguist-detectable=true linguist-language=Python
 *.ipynb linguist-detectable=true linguist-language=Jupyter\ Notebook
 
 # Do not count data files as a programming language
