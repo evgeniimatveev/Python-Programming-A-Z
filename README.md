@@ -13,8 +13,7 @@
   <img src="https://img.shields.io/badge/Learning_Path-Structured-blue" />
   <img src="https://img.shields.io/badge/Status-Active-success" />
 
-  <!-- License -->
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey" />
+
 
 </p>
 
