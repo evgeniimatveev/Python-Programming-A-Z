@@ -1,110 +1,36 @@
-# 🚀 Python Programming A-Z: Master the Fundamentals 🐍
+# 🔄 Section 2: Control Flow & Functions
 
-🎉 **Welcome to Python Programming A-Z!**  
-This repository is a **comprehensive guide** to Python programming, covering everything from **basic syntax** to **real-world applications**.  
-You'll learn **variables, loops, functions, file handling, object-oriented programming**, and dive into **NumPy, Pandas, and data visualization**!  
+Comparison and logical operators, `if` statements, `for` / `while` loops, list comprehensions, functions with `lambda`, `map` and `filter`, plus reading and writing text and CSV files.
 
----
+> ⌨️ the notebook calls `input()` and waits for you to type · 📂 data file referenced but not included · 🌐 needs internet
 
-## 🌟 **Why This Repository?**
-
-✅ **Well-structured content** – Topics are divided into logical sections for easy progression  
-✅ **Interactive learning** – Hands-on exercises & real-world projects 🔥  
-✅ **Clear explanations** – Each concept is broken down step-by-step  
-✅ **Beginner to Advanced** – Covers the full Python learning path  
-✅ **Jupyter Notebooks** – Code along with interactive notebooks 📖  
-
----
-
-## 📂 **Repository Structure**  
-
-The repository is divided into **three structured sections (S1, S2, S3)** to make learning smooth and progressive.  
-
-```
-📂 Python Programming A-Z
-│── 🏗 S1 - Python Basics (Core Fundamentals)
-│   ├── 1️⃣ Variables, Assignments & Math Operations.ipynb
-│   ├── 2️⃣ Print & User Input.ipynb
-│   ├── 3️⃣ Strings & String Methods.ipynb
-│   ├── 4️⃣ Lists, Tuples & Sets.ipynb
-│   ├── 5️⃣ Dictionaries & Boolean Logic.ipynb
-│
-│── 🔄 S2 - Control Flow & Functions
-│   ├── 1️⃣ If-Else Statements & Logical Operators.ipynb
-│   ├── 2️⃣ For & While Loops.ipynb
-│   ├── 3️⃣ Nested Loops & Break-Continue.ipynb
-│   ├── 4️⃣ List Comprehensions.ipynb
-│   ├── 5️⃣ Functions & Lambda Expressions.ipynb
-│   ├── 6️⃣ File Handling (CSV, TXT).ipynb
-│
-│── 📊 S3 - Data Science & Advanced Topics
-│   ├── 1️⃣ NumPy Basics & Arrays.ipynb
-│   ├── 2️⃣ Pandas DataFrames & Data Manipulation.ipynb
-│   ├── 3️⃣ Matplotlib & Seaborn Visualizations.ipynb
-│  
-│  
-```
+| # | Notebook | Topic | Colab | Notes |
+|:-:|----------|-------|:-----:|-------|
+| 1 | [`01-conditionals-concepts.ipynb`](01-conditionals-concepts.ipynb) | Comparison and logical operators, `if` / `elif` / `else` | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/01-conditionals-concepts.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input |
+| 2 | [`02-conditionals-exercise-questions.ipynb`](02-conditionals-exercise-questions.ipynb) | Exercise: conditionals (questions) | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/02-conditionals-exercise-questions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 3 | [`03-conditionals-exercise-solutions.ipynb`](03-conditionals-exercise-solutions.ipynb) | Solutions: conditionals | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/03-conditionals-exercise-solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input |
+| 4 | [`04-for-loops.ipynb`](04-for-loops.ipynb) | `for` loops | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/04-for-loops.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 5 | [`05-range.ipynb`](05-range.ipynb) | `range()` | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/05-range.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 6 | [`06-while-loop.ipynb`](06-while-loop.ipynb) | `while` loops | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/06-while-loop.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 7 | [`07-nested-loops.ipynb`](07-nested-loops.ipynb) | Nested loops | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/07-nested-loops.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 8 | [`08-break-a-loop.ipynb`](08-break-a-loop.ipynb) | `break` and `continue` | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/08-break-a-loop.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 9 | [`09-loops-exercise-questions.ipynb`](09-loops-exercise-questions.ipynb) | Exercise: `for` and `while` loops (questions) | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/09-loops-exercise-questions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input |
+| 10 | [`10-loops-exercise-solutions.ipynb`](10-loops-exercise-solutions.ipynb) | Solutions: `for` and `while` loops | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/10-loops-exercise-solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input |
+| 11 | [`11-list-comprehensions.ipynb`](11-list-comprehensions.ipynb) | List comprehensions | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/11-list-comprehensions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 12 | [`12-functions.ipynb`](12-functions.ipynb) | Defining and calling functions | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/12-functions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input |
+| 13 | [`13-built-in-functions.ipynb`](13-built-in-functions.ipynb) | Built-in functions | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/13-built-in-functions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 14 | [`14-lambda-expressions.ipynb`](14-lambda-expressions.ipynb) | `lambda` expressions | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/14-lambda-expressions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 15 | [`15-map.ipynb`](15-map.ipynb) | `map()` | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/15-map.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 16 | [`16-filter.ipynb`](16-filter.ipynb) | `filter()` | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/16-filter.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 17 | [`17-functions-filters-lambda-exercise-questions.ipynb`](17-functions-filters-lambda-exercise-questions.ipynb) | Exercise: functions, filters, lambda (questions) | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/17-functions-filters-lambda-exercise-questions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input |
+| 18 | [`18-functions-filters-lambda-exercise-solutions.ipynb`](18-functions-filters-lambda-exercise-solutions.ipynb) | Solutions: functions, filters, lambda | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/18-functions-filters-lambda-exercise-solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input |
+| 19 | [`19-text-files.ipynb`](19-text-files.ipynb) | Reading and writing text files | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/19-text-files.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 20 | [`20-csv-files.ipynb`](20-csv-files.ipynb) | Reading and writing CSV files | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/20-csv-files.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | 📂 needs `sample_file.csv` (not included) |
+| 21 | [`21-files-exercise-questions.ipynb`](21-files-exercise-questions.ipynb) | Exercise: file operations (questions) | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/21-files-exercise-questions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input · 📂 needs the S&P 500 CSV and text files (not included) |
+| 22 | [`22-files-exercise-solutions.ipynb`](22-files-exercise-solutions.ipynb) | Solutions: file operations | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/02-control-flow-and-functions/22-files-exercise-solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input · 📂 needs the S&P 500 CSV and text files (not included) · 🖥 contains absolute paths of the original machine |
 
 ---
 
-## 📚 **What You Will Learn**  
+[← Python Basics](../01-python-basics/) &nbsp;·&nbsp; [Data Science Toolkit →](../03-data-science/)
 
-✅ **Python Fundamentals** – Variables, operators, strings, lists, tuples, dictionaries  
-✅ **Control Flow** – If-Else statements, loops, list comprehensions  
-✅ **Functions & Lambda Expressions** – Write reusable, modular Python code  
-✅ **File Handling** – Work with text files and CSVs in Python  
-✅ **Object-Oriented Programming (OOP)** – Classes, objects, methods  
-✅ **NumPy & Pandas** – Efficient data manipulation  
-✅ **Matplotlib & Seaborn** – Stunning data visualizations 📈  
-✅ **Real-World Python Projects** – Hands-on coding with real datasets  
-
-💡 **Each section contains exercises & solutions to test your knowledge!**  
-
----
-
-## 🚀 **How to Get Started**
-
-### 1️⃣ Clone this repository  
-```bash
-git clone https://github.com/evgeniimatveev/Python-Fundamentals.git
-cd Python-Fundamentals
-```
-
-### 2️⃣ Install Jupyter Notebook (if you haven't)  
-```bash
-pip install notebook
-```
-
-### 3️⃣ Launch Jupyter  
-```bash
-jupyter notebook
-```
-
-➡️ Open the `.ipynb` files and start coding! 🚀  
-
----
-
-## 🤝 **Contribute & Collaborate**  
-
-Want to improve this repo? **PRs are welcome!**  
-✅ **Fork** this repository  
-✅ Add new exercises, projects, or explanations  
-✅ **Create a Pull Request** – Let’s build this together! 💡  
-
-📢 **Found an issue?** Open an issue and let's discuss!  
-
----
-
-## 💬 **Feedback & Support**  
-
-Have questions, ideas, or just want to chat?  
-📩 Reach out anytime, and let's learn together!  
-
----
-
-## 👨‍💻 **Author**  
-👤 **Evgenii Matveev**  
-📍 Data Enthusiast | Python Programmer | Open Source Contributor  
-🔗 **GitHub:** [evgeniimatveev](https://github.com/evgeniimatveev)  
-
-🌟 **Like this repo? Give it a star!** ⭐  
+*Built by [Evgenii Matveev](https://github.com/evgeniimatveev) · Data Analyst / Analytics & MLOps Engineer*

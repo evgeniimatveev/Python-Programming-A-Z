@@ -1,110 +1,36 @@
-# 🚀 Python Programming A-Z: Master the Fundamentals 🐍
+# 🏗 Section 1: Python Basics
 
-🎉 **Welcome to Python Programming A-Z!**  
-This repository is a **comprehensive guide** to Python programming, covering everything from **basic syntax** to **real-world applications**.  
-You'll learn **variables, loops, functions, file handling, object-oriented programming**, and dive into **NumPy, Pandas, and data visualization**!  
+Variables and math, print and input, strings, lists, dictionaries and booleans, tuples and sets. Every topic comes as a **concept** notebook, an **exercise** notebook and a **solutions** notebook.
 
----
+> **How the files are named:** `a` = concept, `b` = exercise questions, `c` = solutions. The extra `practice` and `extended` files are my own attempts and a fuller version of the solution, kept next to the originals.
 
-## 🌟 **Why This Repository?**
+> ⌨️ the notebook calls `input()` and waits for you to type · 📂 data file referenced but not included · 🌐 needs internet
 
-✅ **Well-structured content** – Topics are divided into logical sections for easy progression  
-✅ **Interactive learning** – Hands-on exercises & real-world projects 🔥  
-✅ **Clear explanations** – Each concept is broken down step-by-step  
-✅ **Beginner to Advanced** – Covers the full Python learning path  
-✅ **Jupyter Notebooks** – Code along with interactive notebooks 📖  
-
----
-
-## 📂 **Repository Structure**  
-
-The repository is divided into **three structured sections (S1, S2, S3)** to make learning smooth and progressive.  
-
-```
-📂 Python Programming A-Z
-│── 🏗 S1 - Python Basics (Core Fundamentals)
-│   ├── 1️⃣ Variables, Assignments & Math Operations.ipynb
-│   ├── 2️⃣ Print & User Input.ipynb
-│   ├── 3️⃣ Strings & String Methods.ipynb
-│   ├── 4️⃣ Lists, Tuples & Sets.ipynb
-│   ├── 5️⃣ Dictionaries & Boolean Logic.ipynb
-│
-│── 🔄 S2 - Control Flow & Functions
-│   ├── 1️⃣ If-Else Statements & Logical Operators.ipynb
-│   ├── 2️⃣ For & While Loops.ipynb
-│   ├── 3️⃣ Nested Loops & Break-Continue.ipynb
-│   ├── 4️⃣ List Comprehensions.ipynb
-│   ├── 5️⃣ Functions & Lambda Expressions.ipynb
-│   ├── 6️⃣ File Handling (CSV, TXT).ipynb
-│
-│── 📊 S3 - Data Science & Advanced Topics
-│   ├── 1️⃣ NumPy Basics & Arrays.ipynb
-│   ├── 2️⃣ Pandas DataFrames & Data Manipulation.ipynb
-│   ├── 3️⃣ Matplotlib & Seaborn Visualizations.ipynb
-│  
-│  
-```
+| # | Notebook | Topic | Colab | Notes |
+|:-:|----------|-------|:-----:|-------|
+| 1 | [`1a-variables-and-math-concept.ipynb`](1a-variables-and-math-concept.ipynb) | Variables, assignment, precedence and basic math | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/1a-variables-and-math-concept.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 2 | [`1b-variables-and-math-exercise-questions.ipynb`](1b-variables-and-math-exercise-questions.ipynb) | Exercise: variables and math (questions) | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/1b-variables-and-math-exercise-questions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 3 | [`1c-variables-and-math-exercise-practice.ipynb`](1c-variables-and-math-exercise-practice.ipynb) | Exercise: variables and math (my practice attempt) | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/1c-variables-and-math-exercise-practice.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input |
+| 4 | [`2a-print-and-input-concept.ipynb`](2a-print-and-input-concept.ipynb) | `print()` and getting user input | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/2a-print-and-input-concept.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input |
+| 5 | [`2b-print-and-input-exercise-questions.ipynb`](2b-print-and-input-exercise-questions.ipynb) | Exercise: print and input (questions) | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/2b-print-and-input-exercise-questions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 6 | [`2b-print-and-input-exercise-practice.ipynb`](2b-print-and-input-exercise-practice.ipynb) | Exercise: print and input (my practice attempt) | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/2b-print-and-input-exercise-practice.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input |
+| 7 | [`2c-print-and-input-exercise-solutions.ipynb`](2c-print-and-input-exercise-solutions.ipynb) | Solutions: print and input | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/2c-print-and-input-exercise-solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input |
+| 8 | [`2c-print-and-input-exercise-solutions-extended.ipynb`](2c-print-and-input-exercise-solutions-extended.ipynb) | Solutions: print and input, extended with error handling and comments | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/2c-print-and-input-exercise-solutions-extended.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input · 🖥 uses `tkinter` (desktop only) |
+| 9 | [`3a-strings-concept.ipynb`](3a-strings-concept.ipynb) | Strings and string methods | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/3a-strings-concept.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 10 | [`3b-strings-exercise-questions.ipynb`](3b-strings-exercise-questions.ipynb) | Exercise: strings (questions) | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/3b-strings-exercise-questions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 11 | [`3c-strings-exercise-solutions.ipynb`](3c-strings-exercise-solutions.ipynb) | Solutions: strings | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/3c-strings-exercise-solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input |
+| 12 | [`4a-lists-concept.ipynb`](4a-lists-concept.ipynb) | Lists | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/4a-lists-concept.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 13 | [`4b-lists-exercise-questions.ipynb`](4b-lists-exercise-questions.ipynb) | Exercise: lists (questions) | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/4b-lists-exercise-questions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 14 | [`4c-lists-exercise-solutions.ipynb`](4c-lists-exercise-solutions.ipynb) | Solutions: lists | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/4c-lists-exercise-solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input |
+| 15 | [`5a-dictionaries-and-booleans-concept.ipynb`](5a-dictionaries-and-booleans-concept.ipynb) | Dictionaries and booleans | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/5a-dictionaries-and-booleans-concept.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 16 | [`5b-dictionaries-and-booleans-exercise-questions.ipynb`](5b-dictionaries-and-booleans-exercise-questions.ipynb) | Exercise: dictionaries and booleans (questions) | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/5b-dictionaries-and-booleans-exercise-questions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 17 | [`5c-dictionaries-and-booleans-exercise-solutions.ipynb`](5c-dictionaries-and-booleans-exercise-solutions.ipynb) | Solutions: dictionaries and booleans | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/5c-dictionaries-and-booleans-exercise-solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 18 | [`6a-tuples-and-sets-concept.ipynb`](6a-tuples-and-sets-concept.ipynb) | Tuples and sets | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/6a-tuples-and-sets-concept.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 19 | [`6b-tuples-and-sets-exercise-questions.ipynb`](6b-tuples-and-sets-exercise-questions.ipynb) | Exercise: tuples and sets (questions) | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/6b-tuples-and-sets-exercise-questions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> |  |
+| 20 | [`6c-tuples-and-sets-exercise-solutions.ipynb`](6c-tuples-and-sets-exercise-solutions.ipynb) | Solutions: tuples and sets | <a href="https://colab.research.google.com/github/evgeniimatveev/Python-Programming-A-Z/blob/main/01-python-basics/6c-tuples-and-sets-exercise-solutions.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab" height="20"/></a> | ⌨️ asks for input |
 
 ---
 
-## 📚 **What You Will Learn**  
+[← Quickstart](../00-quickstart/) &nbsp;·&nbsp; [Control Flow & Functions →](../02-control-flow-and-functions/)
 
-✅ **Python Fundamentals** – Variables, operators, strings, lists, tuples, dictionaries  
-✅ **Control Flow** – If-Else statements, loops, list comprehensions  
-✅ **Functions & Lambda Expressions** – Write reusable, modular Python code  
-✅ **File Handling** – Work with text files and CSVs in Python  
-✅ **Object-Oriented Programming (OOP)** – Classes, objects, methods  
-✅ **NumPy & Pandas** – Efficient data manipulation  
-✅ **Matplotlib & Seaborn** – Stunning data visualizations 📈  
-✅ **Real-World Python Projects** – Hands-on coding with real datasets  
-
-💡 **Each section contains exercises & solutions to test your knowledge!**  
-
----
-
-## 🚀 **How to Get Started**
-
-### 1️⃣ Clone this repository  
-```bash
-git clone https://github.com/evgeniimatveev/Python-Fundamentals.git
-cd Python-Fundamentals
-```
-
-### 2️⃣ Install Jupyter Notebook (if you haven't)  
-```bash
-pip install notebook
-```
-
-### 3️⃣ Launch Jupyter  
-```bash
-jupyter notebook
-```
-
-➡️ Open the `.ipynb` files and start coding! 🚀  
-
----
-
-## 🤝 **Contribute & Collaborate**  
-
-Want to improve this repo? **PRs are welcome!**  
-✅ **Fork** this repository  
-✅ Add new exercises, projects, or explanations  
-✅ **Create a Pull Request** – Let’s build this together! 💡  
-
-📢 **Found an issue?** Open an issue and let's discuss!  
-
----
-
-## 💬 **Feedback & Support**  
-
-Have questions, ideas, or just want to chat?  
-📩 Reach out anytime, and let's learn together!  
-
----
-
-## 👨‍💻 **Author**  
-👤 **Evgenii Matveev**  
-📍 Data Enthusiast | Python Programmer | Open Source Contributor  
-🔗 **GitHub:** [evgeniimatveev](https://github.com/evgeniimatveev)  
-
-🌟 **Like this repo? Give it a star!** ⭐  
+*Built by [Evgenii Matveev](https://github.com/evgeniimatveev) · Data Analyst / Analytics & MLOps Engineer*
