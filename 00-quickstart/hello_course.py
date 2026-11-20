@@ -4,6 +4,12 @@ Quick overview script for the Python-Programming-A-Z repository.
 It prints the main sections of the course and what you will learn in each.
 """
 
+import sys
+
+# Emoji in the output: make sure Windows consoles (cp1252) can print them.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 sections = [
     ("S1 - Python Basics", "Core fundamentals: variables, types, strings, lists, dicts"),
     ("S2 - Control Flow & Functions", "If/else, loops, list comprehensions, functions, files"),

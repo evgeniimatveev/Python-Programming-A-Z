@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Python Programming A-Z banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1b2e"/>
+      <stop offset="0.6" stop-color="#1b3a63"/>
+      <stop offset="1" stop-color="#3776AB"/>
+    </linearGradient>
+    <linearGradient id="cell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+  <!-- decorative notebook cells -->
+  <g transform="translate(800 44)">
+    <rect x="0" y="0" width="400" height="72" rx="10" fill="url(#cell)" stroke="#ffffff" stroke-opacity="0.25"/>
+    <text x="18" y="30" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#FFD43B">In [1]:</text>
+    <text x="18" y="56" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#e6f0ff">print("Hello, Python!")</text>
+    <rect x="0" y="88" width="400" height="72" rx="10" fill="url(#cell)" stroke="#ffffff" stroke-opacity="0.25"/>
+    <text x="18" y="118" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#FFD43B">In [2]:</text>
+    <text x="18" y="144" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#e6f0ff">[x**2 for x in range(5)]</text>
+    <rect x="0" y="176" width="400" height="72" rx="10" fill="url(#cell)" stroke="#ffffff" stroke-opacity="0.25"/>
+    <text x="18" y="206" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#FFD43B">In [3]:</text>
+    <text x="18" y="232" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#e6f0ff">df.groupby("class").mean()</text>
+  </g>
+  <!-- title -->
+  <text x="64" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#FFD43B" letter-spacing="6">LEARN BY DOING</text>
+  <text x="62" y="212" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="80" font-weight="800" fill="#ffffff">Python Programming A–Z</text>
+  <text x="64" y="262" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#dbe9ff">Basics  ·  Control Flow  ·  Functions  ·  NumPy  ·  pandas  ·  Seaborn</text>
+</svg>

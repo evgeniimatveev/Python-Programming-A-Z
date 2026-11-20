@@ -1,0 +1,8 @@
+# Everything the notebooks import (standard-library modules excluded)
+jupyterlab
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn   # 03-data-science/04-seaborn.ipynb loads the breast-cancer dataset
+lxml           # 03-data-science/02-pandas.ipynb uses pd.read_html()

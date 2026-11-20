@@ -1,0 +1,29 @@
+name: Notebook check
+
+# Static checks only: notebooks are not executed (several need interactive input or data that is not in the repo).
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - uses: astral-sh/setup-uv@v7
+
+      - name: Validate every notebook (nbformat) + file-name hygiene
+        run: uv run --no-project --with nbformat python .github/scripts/check_notebooks.py
+
+      - name: Quickstart script runs
+        run: python 00-quickstart/hello_course.py
